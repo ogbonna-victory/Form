@@ -92,3 +92,44 @@ input::placeholder{
 span{
     color: #99443f;
 }
+@media screen and (max-width: 600px) {
+    .form{
+        margin: 0 auto;
+    }
+    body{
+        font-size: 1em;
+    }
+    .form{
+        width: 400px;
+        margin-top: 25px;
+    }
+   #img{
+    width: 210px;
+    padding-top: 150px;
+   }
+   h2{
+    font-size: 1em;
+   }
+   .user-name,
+   .user-email,
+   .user-password,
+   .signin,
+   .tc{
+    font-size: smaller;
+   }
+   #email,
+   #password,
+   #name{
+    width: 150px;
+   }
+   #button{
+    width: 100px;
+   }
+   .signin{
+    margin-left: 5px;
+   }
+   .tc{
+    width: 200px;
+   }
+
+}
