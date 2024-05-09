@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+.form{
+    margin: auto;
+    width: 700px;
+    border: 8px solid #efefef;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+#img{
+    float: right;
+    width: 400px;
+    padding-top: 100px;
+}
+h2{
+    color: #99443f;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.user-name{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+#name{
+    margin-left: 40px;
+    height: 30px;
+    width: 220px;
+    background-color: #dfdcdc;
+    border: none;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.user-email{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+#email{
+    margin-left: 40px;
+    height: 30px;
+    width: 220px;
+    background-color: #dfdcdc;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.user-password{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+#password{
+    margin-left: 40px;
+    height: 30px;
+    width: 220px;
+    background-color: #dfdcdc;
+    border: none;
+    margin-bottom: 20px;
+}
+#button{
+    background-color: #99443f;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 150px;
+    margin-left: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+#button:hover{
+    background-color: #dd862b;
+    cursor: pointer;
+}
+.signin{
+    color: #99443f;
+    display: inline-block;
+    margin-left: 13px;
+}
+#checkbox{
+    margin-left: 40px;
+}
+.tc{
+    display: inline-block;
+    width: 230px;
+    margin-left: 10px;
+}
+span{
+    color: #99443f;
+}
