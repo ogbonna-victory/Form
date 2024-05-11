@@ -7,61 +7,63 @@
     margin: auto;
     width: 700px;
     border: 8px solid #efefef;
-    margin-top: 80px;
+    margin-top: 100px;
     border-radius: 10px;
     padding-bottom: 30px;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 #img{
-    float: right;
-    width: 400px;
-    padding-top: 100px;
+    float: left;
+    width: 350px;
+    padding-top: 90px;z
 }
 h2{
     color: #99443f;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    margin-right: 210px;
 }
 .user-name{
-    margin-left: 40px;
     margin-bottom: 5px;
+    margin-right: 292px;
 }
 #name{
-    margin-left: 40px;
+  
     height: 30px;
     width: 220px;
     background-color: #dfdcdc;
     border: none;
     margin-bottom: 20px;
+    margin-right: 115px;
 }
 input::placeholder{
     padding-left: 10px;
 }
 .user-email{
-    margin-left: 40px;
     margin-bottom: 5px;
+    margin-right: 295px;
 }
 #email{
-    margin-left: 40px;
     height: 30px;
     width: 220px;
     background-color: #dfdcdc;
     border: none;
     margin-bottom: 20px;
+    margin-right: 115px;
 }
-
 .user-password{
-    margin-left: 40px;
     margin-bottom: 5px;
+    margin-right: 265px;
 }
 #password{
-    margin-left: 40px;
     height: 30px;
     width: 220px;
     background-color: #dfdcdc;
     border: none;
     margin-bottom: 20px;
+    margin-right: 115px;
 }
 #button{
     background-color: #99443f;
@@ -69,7 +71,6 @@ input::placeholder{
     border: none;
     height: 30px;
     width: 150px;
-    margin-left: 40px;
     color: white;
     margin-bottom: 20px;
 }
@@ -77,36 +78,29 @@ input::placeholder{
     background-color: #dd862b;
     cursor: pointer;
 }
+.signincon{
+    display: flex;
+    align-items: center;
+    padding-right: 88px;
+}
 .signin{
     color: #99443f;
     display: inline-block;
-    margin-left: 13px;
-}
-#checkbox{
-    margin-left: 40px;
-}
-.tc{
-    display: inline-block;
-    width: 230px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 span{
-    color: #99443f;
+    color:  #99443f;
 }
 @media screen and (max-width: 600px) {
     .form{
-        margin: 0 auto;
-    }
-    body{
-        font-size: 1em;
-    }
-    .form{
-        width: 400px;
+        width: 100%;
         margin-top: 15px;
     }
+    *{
+        margin: auto;
+    }
    #img{
-    width: 210px;
-    padding-top: 150px;
+    display: none;
    }
    h2{
     font-size: 1em;
@@ -121,15 +115,17 @@ span{
    #email,
    #password,
    #name{
-    width: 150px;
+
+    width: 100%;
    }
    #button{
     width: 100px;
-   }
-   .signin{
     margin-left: 5px;
    }
-   .tc{
-    width: 200px;
-   }
+   .signin{
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
 }
+}
+
