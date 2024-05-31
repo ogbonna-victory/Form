@@ -94,7 +94,7 @@ span{
 }
 @media (max-width: 475px) {
     .form{
-        width: 80%;
+        width: 90%;
         margin-top: 70px;
     }
     *{
@@ -131,7 +131,7 @@ span{
 }
 @media (max-width: 768px) {
     .form{
-        width: 80%;
+        width: 90%;
         margin-bottom: 30px;
         margin-top: 50px;
     }
